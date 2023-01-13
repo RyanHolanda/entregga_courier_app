@@ -1,0 +1,18 @@
+{
+    "login":"Login",
+    "loginDescription":"Escolha uma opção para fazer login",
+    "storeID":"ID da Loja",
+    "or":"Ou",
+    "back":"Voltar",
+    "yourAdresses":"Seus endereços",
+    "openAllInMaps":"Mandar todos para Google Maps",
+    "signOut":"Sair",
+    "completeds":"Finalizados",
+    "areYouSureSignOut":"Tem certeza?",
+    "areYouSureSignOutDescription":"Tem certeza que deseja sair? Na proxíma vez terá que entrar na sua conta novamente",
+    "scanQrCode":"Escanear QR Code",
+    "courierID":"ID do entregador",
+    "notFound":"Não Encontrado",
+    "unknownStoreOrCourier":"Não foi encontrado um entregador ou uma loja com esses IDs",
+    "helloCourier":"Olá, entregador!"
+}

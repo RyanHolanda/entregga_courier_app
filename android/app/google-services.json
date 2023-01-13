@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "860665126566",
+    "project_id": "entregga-6d50c",
+    "storage_bucket": "entregga-6d50c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860665126566:android:fb92630bce0b86b08b5e67",
+        "android_client_info": {
+          "package_name": "com.entreggue.entregga_courier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860665126566-0t882jgmem1j7pds0e71ulh6u1k42r4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9uBiRsGgN31NWbpy-UlHKlnmkbb-412Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860665126566-0t882jgmem1j7pds0e71ulh6u1k42r4v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "860665126566-cvi4pmo1f8m7vibkqd09jgor9kl35hsc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.entreggue.entreggaCourier"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860665126566:android:0d0330c9ed446c8d8b5e67",
+        "android_client_info": {
+          "package_name": "com.entreggue.entreggue_restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860665126566-0t882jgmem1j7pds0e71ulh6u1k42r4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9uBiRsGgN31NWbpy-UlHKlnmkbb-412Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860665126566-0t882jgmem1j7pds0e71ulh6u1k42r4v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "860665126566-cvi4pmo1f8m7vibkqd09jgor9kl35hsc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.entreggue.entreggaCourier"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
