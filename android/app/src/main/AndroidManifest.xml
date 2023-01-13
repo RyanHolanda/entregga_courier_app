@@ -12,7 +12,7 @@
     </intent>
     </queries>
    <application
-        android:label="Entregga entr"
+        android:label="Entregga"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true">

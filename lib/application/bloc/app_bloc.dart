@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:bloc/bloc.dart';
 import 'package:entregga_courier/data/models/address_model.dart';
 import 'package:entregga_courier/data/repos/firebase_storage.dart';
@@ -23,6 +24,9 @@ class AppBloc extends Bloc<AppEvent, AppState> {
             storeID: event.storeID, courierId: event.courierID);
         emit(const AppStateLoggedIn(isLoading: false));
         await main();
+        print('after main');
+        add(AppEventGetDataPeriodic(
+            storeID: event.storeID, courierID: event.courierID));
       } on FormatException catch (e) {
         if (e.message == 'not-found') {
           FormatError().setErrorMessage(e.message);
@@ -41,18 +45,18 @@ class AppBloc extends Bloc<AppEvent, AppState> {
       emit(const AppStateLoggedIn(isLoading: false));
       add(AppEventGetDataPeriodic(
           storeID: event.storeID, courierID: event.courierID));
-      await main();
     });
-
     on<AppEventGetDataPeriodic>((event, emit) {
-      Timer.periodic(const Duration(seconds: 120), (timer) async {
+      Timer.periodic(const Duration(seconds: 20), (timer) async {
         final addresses = await FetchFromStorage(
                 storeid: event.storeID, courierId: event.courierID)
             .fethCourierAddresses();
         if (addresses.length > adressesList.length) {
+          adressesList = addresses;
+          final player = AudioPlayer();
+          player.play(AssetSource('new_address.wav'));
           add(AppEventGetData(
               storeID: event.storeID, courierID: event.courierID));
-          adressesList = addresses;
         }
       });
     });
