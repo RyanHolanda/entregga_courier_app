@@ -5,3 +5,7 @@ I decided to develop this app/site 'cause my uncle has a restaurant, and when I 
 
 # Database
 I Used firebase in this application/website 'cause it's the best free, fast, easy-to-use, and cloud database.
+
+# Download
+
+You can download this application going to Releases section
