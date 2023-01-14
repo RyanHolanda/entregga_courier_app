@@ -1,16 +1,11 @@
-# entregga_courier
+![Group 16](https://user-images.githubusercontent.com/86686024/212444444-3da36e8a-5fc4-41bb-8683-ea96c06c0939.png)
 
-A new Flutter project.
+# Why
+I decided to develop this app/site 'cause my uncle has a restaurant, and when I helped him, I saw they use whatsapp to send addresses to his couriers. And some mistakes can occur doing that, the information is not too clear to courier. So, I decided to create a Application to courier (You can download it in the releases section). And a website to restaurant add adresses to courier. This application is being used in the real-world by restaurants!
 
-## Getting Started
+# Database
+I Used firebase in this application/website 'cause it's the best free, fast, easy-to-use, and cloud database.
 
-This project is a starting point for a Flutter application.
+# Download
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can download this application going to Releases section
